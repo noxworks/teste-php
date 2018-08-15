@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/02/2016, 14:44:03
+    Author     : Fila
+*/
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    /*margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;*/
+}
+
+#t_listagem tr td {
+    vertical-align: middle !important;
+    padding: 2px 0 2px 0;
+}
+
+#t_listagem {
+    table-layout:auto !important; 
+}
+
+#t_listagem.tableSmall tr td, #t_listagem.tableSmall tbody tr td {
+    padding: 1px;
+    font-size: .85em;
+    border-top: 1px solid #ddd;
+}
+
+#article-tabs {
+
+}
+
+#article-tabs .active {
+    /**/
+}
+
+.carousel-control i.fa {
+    position: absolute;
+    top: 42%;
+    left: 3px;
+}
+
+.carousel-control i.fa:after, .sortable li a i.fa:after {
+    content: "\00a0\00a0";
+}
+
+.sortable-container {
+    overflow: hidden;
+}
+
+.sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sortable li {
+    margin: 3px 3px 3px 0;
+    padding: 1px;
+    float: left;
+    text-align: center;
+}
+
+#suggestions {
+    border: 1px solid #CCC;
+    background: #EDEDED;
+    padding: 5px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: gray;
+}

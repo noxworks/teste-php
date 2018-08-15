@@ -1,0 +1,35 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+#debug_output{
+    background-color: black;
+    font-family: monospace;
+    color: greenyellow;
+    float: left;
+    position: absolute;
+    margin: 0;
+}
+.down_right{
+    display: inline-table;
+    width: 10px;
+    height: 10px;
+    
+    background-image: url('../images/down_right2.png');
+    background-size: cover;
+}
+.spacer{
+    display: inline-table;
+    width: 20px;
+}
+
+table>thead>tr>th{
+    text-align: center;
+    border-right: 1px solid #EDEDED;
+}
+
+table>tbody>tr>td{
+    border-right: 1px solid #EDEDED;
+}
+table>tbody>tr>td>span{
+    padding: 0 10px 0 10px;
+}

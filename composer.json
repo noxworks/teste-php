@@ -1,0 +1,30 @@
+{
+	"name": "Teste",
+    "description": "Teste para vaga de Analista Desenvolvedor PHP",
+    "keywords": ["microframework", "rest", "router", "psr7"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabio Fila",
+            "email": "fila@noxworks.com.br"
+        }
+    ],
+	"type": "project",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"slack": "https://codeigniterchat.slack.com",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
+	},
+	"require": {
+		"php": ">=5.3.7",
+		"twbs/bootstrap": ">=4.1"
+	},
+	"suggest": {
+		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*",
+		"phpunit/phpunit": "4.* || 5.*"
+	}
+}
